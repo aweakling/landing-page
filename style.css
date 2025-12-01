@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: 1px solid red;
 }
 
 body {
@@ -45,6 +46,7 @@ ul {
     height: 200px;
 }
 
+
 .second-page img {
     border: 1px solid blue;
 }
@@ -62,6 +64,18 @@ ul {
     width: 600px;
 }
 
+.thor {
+    text-align: end;
+}
+
 .fourth-page {
-    
+
+}
+
+.bot-footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
