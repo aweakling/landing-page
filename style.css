@@ -15,6 +15,7 @@ ul {
     gap: 12px;
 }
 
+
 .top-container {
     display: flex;
     justify-content: space-between;
@@ -28,4 +29,39 @@ ul {
     gap: 12px;
     background-color: #1F2937;
     color: white;
+    height: 200px;
+}
+
+.random {
+    display: flex;
+    justify-content: center;
+}
+
+.second-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    height: 200px;
+}
+
+.second-page img {
+    border: 1px solid blue;
+}
+
+.third-page {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+}
+
+.third-page p {
+    width: 600px;
+}
+
+.fourth-page {
+    
 }
