@@ -24,9 +24,15 @@ ul {
     padding: 16px;
 }
 
+.logo img {
+   width: 250px;
+   height: 45px;
+}
+
 .first-page {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     gap: 12px;
     background-color: #1F2937;
     color: white;
@@ -34,6 +40,7 @@ ul {
 }
 
 .random {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
@@ -46,6 +53,16 @@ ul {
     height: 200px;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info img {
+    width: 150px;
+    height: 150px;
+}
 
 .second-page img {
     border: 1px solid blue;
@@ -69,7 +86,21 @@ ul {
 }
 
 .fourth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.square {
+    margin: 20px;
+    background-color: #3882F6;
+    padding: 20px;
+    flex: auto;
+}
+
+.butt {
+    display: flex;
+    justify-content: space-between;
 }
 
 .bot-footer {
