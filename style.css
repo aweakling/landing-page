@@ -24,6 +24,10 @@ ul {
     padding: 16px;
 }
 
+.links {
+    align-items: center;
+}
+
 .logo img {
    width: 250px;
    height: 45px;
@@ -32,15 +36,41 @@ ul {
 .first-page {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 12px;
     background-color: #1F2937;
     color: white;
     height: 200px;
+    padding: 20px;
+}
+
+.main h1 {
+    font-size: 48px;
+}
+
+.main p {
+    font-size: 18px;
+}
+
+.main button {
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    padding: 6px;
+    width: 100px;
+    margin: 10px 0;
+}
+
+.first-page img {
+    width: 300px;
+    height: auto;
 }
 
 .random {
-    margin-top: 20px;
+    margin: 20px 0;
     display: flex;
     justify-content: center;
 }
@@ -51,12 +81,14 @@ ul {
     align-items: center;
     gap: 16px;
     height: 200px;
+    margin-bottom: 20px;
 }
 
 .info {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 200px;
 }
 
 .info img {
@@ -64,8 +96,13 @@ ul {
     height: 150px;
 }
 
+.info p {
+    text-align: justify;
+}
+
 .second-page img {
     border: 1px solid blue;
+    margin: 12px;
 }
 
 .third-page {
@@ -75,6 +112,7 @@ ul {
     align-items: center;
     flex-direction: column;
     height: 200px;
+    margin-top: 20px;
 }
 
 .third-page p {
@@ -96,11 +134,29 @@ ul {
     background-color: #3882F6;
     padding: 20px;
     flex: auto;
+    border-radius: 10px;
+    color: white;
+}
+
+.square > p {
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .butt {
     display: flex;
     justify-content: space-between;
+}
+
+.butt button {
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    color: white;
+    font-weight: bold;
+    padding: 6px;
+    width: 100px;
 }
 
 .bot-footer {
