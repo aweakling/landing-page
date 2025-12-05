@@ -7,7 +7,6 @@
 
 body {
     display: flex;
-    flex-direction: column;
 }
 
 ul {
@@ -16,10 +15,22 @@ ul {
     gap: 12px;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+     margin: 0 auto;
+}
+
 .top-container {
     display: flex;
     justify-content: space-between;
-    background-color: aquamarine;
+    background-color: #1F2937;
     padding: 16px;
 }
 
